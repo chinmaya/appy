@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Todo Application</title>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans" rel="stylesheet">
+    <link href="todo.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <h1>todo application</h1>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="container">
+        <form>
+          <input id="todo" type="text" placeholder="add your todo item" autofocus/>
+          <button id="add" type="submit">+</button>
+        </form>
+
+        <div class="items">
+          <ul>
+            <li>breakfast at Panera Bread</li>
+            <li>lunch meeting at Universal Cafe</li>
+            <li>remember the milk</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+      </div>
+    </div>
+
+    <script src="todo.backend.js"/>
+    <script src="todo.model.js"/>
+    <script src="todo.app.js"/>
+  </body>
+</html>

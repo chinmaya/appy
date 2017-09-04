@@ -1,0 +1,76 @@
+html, body {
+  font-family: 'Droid+Sans', 'Encode+Sans', sans-serif;
+}
+
+.header {
+  font-family: 'Droid+Sans';
+  font-size: 25px;
+  margin: 50px 0 10px 80px;
+  padding: 0 20px;
+  border: none;
+  border-left: 2px solid #ff1f00;
+}
+
+.main {
+  margin: 50px 0 0 80px;
+}
+
+.main .container form input {
+  font-size: 35px;
+  width: 400px;
+  margin-left: 0;
+  padding-left: 20;
+  border: none;
+  border-left: 2px solid #b6b6b6;
+  background: #f6f5f5;
+}
+
+input::placeholder {
+  color: #d6d6d6;
+}
+
+.main .container form input:focus {
+  border-left: 2px solid #ff1f00;
+  outline: none;
+  transition: border 2s;
+}
+
+.main .container form button {
+  font-size: 35px;
+  width: 40px;
+  margin: 0 10px;
+  border: none;
+  background: transparent;
+}
+
+.main .container form button:hover {
+  border-bottom: 2px solid #ff1f00;
+  background: #e88f83;
+  transition: background 2s;
+}
+
+.main .container .items ul {
+  margin: 30 0 0 0;
+  padding: 0;
+}
+
+.main .container .items ul li {
+  list-style-type: none;
+  font-size: 35px;
+  width: 600px;
+  border: none;
+  border-left: 2px dashed #ff1f00;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
+.footer {
+  margin: 100px 0 100px 100px;
+  font-family: 'Droid+Sans';
+}
+
+.footer ul {
+  list-style-type: none;
+  color: rgb(184, 181, 186);
+  font-size: 12px;
+}

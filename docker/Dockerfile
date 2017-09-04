@@ -2,7 +2,10 @@ FROM ubuntu:latest
 RUN apt-get update -y
 RUN apt-get install -y python-pip
 RUN pip install flask
-COPY . /appy
+COPY public /appy/public
+COPY appy.py /appy/appy.py
+COPY modules /appy/modules
+COPY rest /appy/rest
 WORKDIR /appy
 ENTRYPOINT ["python"]
-CMD ["appy.py"]
+CMD ["/appy/appy.py"]
