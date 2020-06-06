@@ -59,7 +59,7 @@ input::placeholder {
   font-size: 35px;
   width: 600px;
   border: none;
-  border-left: 2px dashed #ff1f00;
+  border-left: 2px dotted orange;
   margin-top: 30px;
   padding-left: 20px;
 }
